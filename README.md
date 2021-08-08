@@ -2,7 +2,7 @@
 ### `Created By: David Couch 8/7/2021`
 
 ## `About`
-This file was created to more the concept behind how object enumeration and iteration is handled. For the love of JavaScript!
+This file was created to explore the concept behind how object enumeration and iteration is handled. For the love of JavaScript!
 
 ### `About Property Definition`
   - It is important to understand what definitions are to better understand the enumerator.
