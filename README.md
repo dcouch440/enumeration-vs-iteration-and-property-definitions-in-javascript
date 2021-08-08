@@ -116,7 +116,7 @@ for (let i in obj) {
 ```
 
 
-### `What is enumeration all about?`
+### `What Is Enumeration All About?`
   - The Object data type in JavaScript do not use the iterator. This means for...in loops do not work on objects because they use the Symbol.iterator generator.
   - Javascript does have built in values to help with this and can be used as such
   ```js
@@ -164,7 +164,7 @@ for (let i in obj) {
   - In JavaScript the Array and string object have a built in method called the iterator.
   - From developer.mozilla: "Whenever an object needs to be iterated (such as at the beginning of a for...of loop), its @@iterator method is called with no arguments, and the returned iterator is used to obtain the values to be iterated."
 
-- #### `Have you heard of function*?`
+- #### `Have You Heard of function*?`
     - Arrays have a method in it that return a generator function
     - calling the array as such.
       ```js
