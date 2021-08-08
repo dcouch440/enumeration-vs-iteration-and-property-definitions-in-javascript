@@ -152,7 +152,7 @@ for (let i in obj) {
       // this returns both the key and the value
       // this fallows the same enumeration rules as a for in loop
       // non enumerable properties will now show
-      {key,value}
+      {[key]:value}
     })
   ```
   - An objects enumerable values are the properties of the object (keys)
