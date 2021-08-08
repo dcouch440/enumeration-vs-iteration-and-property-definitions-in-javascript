@@ -117,7 +117,7 @@ for (let i in obj) {
 
 
 ### `What Is Enumeration All About?`
-  - The Object data type in JavaScript do not use the iterator. This means for...in loops do not work on objects because they use the Symbol.iterator generator.
+  - The Object data type in JavaScript do not use the iterator. This means for...in loops do not work on Arrays because they use the Symbol.iterator generator.
   - Javascript does have built in values to help with this and can be used as such
   ```js
 
