@@ -219,11 +219,10 @@ for (let i in obj) {
       for (let u of c) {
         console.log(u)
         // loops through the object using for of
+        // loop returns
+        // "Value 1"
+        // "Value 2"
+        // "value 3"
       }
-
-      // loop returns
-      // "Value 1"
-      // "Value 2"
-      // "value 3"
 
       ```
