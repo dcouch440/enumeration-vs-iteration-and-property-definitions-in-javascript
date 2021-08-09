@@ -165,7 +165,7 @@ for (let i in obj) {
   - From developer.mozilla: "Whenever an object needs to be iterated (such as at the beginning of a for...of loop), its @@iterator method is called with no arguments, and the returned iterator is used to obtain the values to be iterated."
 
 - #### `Have You Heard of function*?`
-    - Array and String have a method in them that return a generator function
+    - Array and String have a method in them that return a type of generator function
     - calling the array as such.
       ```js
         const iterationGenerator = [1,1,1][Symbol.iterator]()
