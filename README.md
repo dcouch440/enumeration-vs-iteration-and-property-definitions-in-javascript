@@ -88,7 +88,6 @@ for (let i in obj) {
 }
 
 ```
-- To prevent this use
 ```js
 const obj = {}
 
