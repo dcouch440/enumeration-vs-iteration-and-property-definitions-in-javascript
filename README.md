@@ -211,13 +211,15 @@ for (let i in obj) {
       // destructure like its an array!
       const [a,b,x,v] = c
 
-      console.log(a) // returns 'value 1'
-      console.log(b) // returns 'value 2'
-      console.log(x) // returns 'value 3'
-      console.log(v) // returns undefined
+      console.log(
+        a, // returns 'value 1'
+        b, // returns 'value 2'
+        x, // returns 'value 3'
+        v // returns undefined
+      )
 
-      for (let u of c) {
-        console.log(u)
+      for (let objValue of c) {
+        console.log(objValue)
         // loops through the object using for of
         // loop returns
         // "Value 1"
